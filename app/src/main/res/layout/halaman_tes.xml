@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#42a5f5">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="Soal No 1"-->
+        <!--android:id="@+id/judul"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="28dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="24dp"-->
+        <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="A :"-->
+        <!--android:id="@+id/textView4"-->
+        <!--android:layout_below="@+id/judul"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginLeft="46dp"-->
+        <!--android:layout_marginStart="46dp"-->
+        <!--android:layout_marginTop="75dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="B :"-->
+        <!--android:id="@+id/textView5"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_alignLeft="@+id/textView4"-->
+        <!--android:layout_alignStart="@+id/textView4" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="A"-->
+        <!--android:id="@+id/buttonA"-->
+        <!--android:background="#ffffff"-->
+        <!--android:textColor="#ec008c"-->
+        <!--android:textSize="25dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_marginTop="69dp"-->
+        <!--android:layout_below="@+id/soalB"-->
+        <!--android:layout_alignLeft="@+id/soalB"-->
+        <!--android:layout_alignStart="@+id/soalB" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="B"-->
+        <!--android:id="@+id/buttonB"-->
+        <!--android:background="#ffffff"-->
+        <!--android:textColor="#ec008c"-->
+        <!--android:textSize="25dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_alignTop="@+id/buttonA"-->
+        <!--android:layout_toRightOf="@+id/judul"-->
+        <!--android:layout_toEndOf="@+id/judul" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="@string/soal1A"-->
+        <!--android:id="@+id/soalA"-->
+        <!--android:layout_alignTop="@+id/textView4"-->
+        <!--android:layout_toRightOf="@+id/textView4"-->
+        <!--android:layout_toEndOf="@+id/textView4"-->
+        <!--android:layout_marginLeft="28dp"-->
+        <!--android:layout_marginStart="28dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="@string/soal1B"-->
+        <!--android:id="@+id/soalB"-->
+        <!--android:layout_alignTop="@+id/textView5"-->
+        <!--android:layout_alignLeft="@+id/soalA"-->
+        <!--android:layout_alignStart="@+id/soalA"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textStyle="bold" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="New Text"-->
+        <!--android:id="@+id/debugger"-->
+        <!--android:layout_below="@+id/buttonA"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:visibility="invisible" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Soal No 1"
+        android:id="@+id/judul"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="A:"
+                android:id="@+id/textView5"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/soal1"
+                android:id="@+id/soalA"
+                android:layout_marginLeft="20dp"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="B:"
+                android:id="@+id/textView7"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/soal1"
+                android:id="@+id/soalB"
+                android:layout_marginLeft="20dp"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:text="A"
+            android:id="@+id/buttonA"
+            android:background="#ffffff"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:text="B"
+            android:id="@+id/buttonB"
+            android:layout_marginLeft="30dp"
+            android:background="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/debugger"
+        android:visibility="invisible" />
+
+</LinearLayout>
